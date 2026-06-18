@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "first commit"
+
+git branch -M html-main
+git remote add origin https://github.com/spks1991/Probir-html.git
+git push -u origin html-main
+git push origin html-main --force
